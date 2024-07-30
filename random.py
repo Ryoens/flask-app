@@ -13,5 +13,5 @@ sentences = [
 
 @app.route("/")
 def hello_world():
-    sentence = random.choice(sentences)
+    sentence = random.choice(sentences) # ランダム表示
     return sentence
